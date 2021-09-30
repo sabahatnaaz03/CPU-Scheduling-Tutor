@@ -1,0 +1,27 @@
+fresh th {
+    background: linear-gradient(WhiteSmoke, lightgray);
+    text-align: left;
+    border: 1px solid black;
+    height: 400 px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+fresh td {
+   /* border: 1px solid black;*/
+    border-bottom: 0;
+    /*border-right: 0;*/
+    height: 20px;
+    text-align: left;
+}
+
+
+ #curtain {
+   background-color: white;
+ }
+
+ .card{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.card_content{
+  padding:1rem;
+}
