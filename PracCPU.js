@@ -91,6 +91,7 @@ $(document).ready(
             var completedList = [];
 
             while (processList.length > 0 || queue.length > 0) {
+                 addToQueue();
                 while (queue.length == 0) {
                     time++;
                     addToQueue();
