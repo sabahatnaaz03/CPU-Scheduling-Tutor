@@ -185,10 +185,11 @@ console.log(tempp);
             }
             else{
             $('#throughput').val(completedList.length / maxCompletedTime);
-            }
-            }
-             msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
+                msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
             showModal();
+            }
+            }
+             
         }
 
         function shortestJobFirst(){
@@ -303,10 +304,11 @@ console.log(tempp);
             }
             else{
             $('#throughput').val(completedList.length / maxCompletedTime);
-            }
-            }
-             msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
+                msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
             showModal();
+            }
+            }
+             
         }
 
         function shortestRemainingTimeFirst() {
@@ -447,10 +449,11 @@ console.log(tempp);
             }
             else{
             $('#throughput').val(completedList.length / maxCompletedTime);
-            }
-            }
-             msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
+                 msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
             showModal();
+            }
+            }
+            
         }
 
         function roundRobin() {
@@ -614,10 +617,11 @@ console.log(tempp);
             }
             else{
             $('#throughput').val(completedList.length / maxCompletedTime);
-            }
-            }
-             msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
+                msgValue=`<p style="font-weight:bold;text-align:center;font-size:40px">Well done! You got the right Answer</p>`;
             showModal();
+            }
+            }
+             
         }    
     }
 );
